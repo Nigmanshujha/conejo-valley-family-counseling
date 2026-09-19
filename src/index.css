@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'PrintedMoments';
+  src: url('https://static1.squarespace.com/static/670423e106da6c036366fd10/t/67042f1ac94bbb494649b8e4/1728327450432/printedmoments-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --color-bg-light: #faf8f5;
+  --color-bg-sand: #ece5da;
+  --color-text-dark: #231f1d;
+  --color-text-muted: #59524c;
+  --color-accent-sage: #4e6f60;
+  --color-accent-terracotta: #966049;
+  --color-border-subtle: #e3dbcf;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  color: var(--color-text-dark);
+  background-color: var(--color-bg-light);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-serif-heading {
+  font-family: 'Cormorant Infant', Georgia, serif;
+}
+
+.font-script-accent {
+  font-family: 'PrintedMoments', 'Cedarville Cursive', 'Caveat', 'Mrs Saint Delafield', 'Reenie Beanie', cursive, serif;
+}
+
+.font-sans-body {
+  font-family: 'Mulish', -apple-system, BlinkMacSystemFont, sans-serif;
+}

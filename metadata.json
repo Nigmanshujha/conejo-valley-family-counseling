@@ -1,0 +1,6 @@
+{
+  "name": "Dr. Maya Reynolds, PsyD",
+  "description": "Dr. Maya Reynolds, PsyD is a licensed clinical psychologist based in Santa Monica, California, offering therapy for adults experiencing anxiety, trauma, and burnout. In-person & California telehealth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
